@@ -51,7 +51,7 @@ class AuthGate extends StatelessWidget {
       return _buildErrorScreen("An error occurred. Please try again.");
     }
     if (snapshot.hasData) {
-      return const Scaffold();
+      return const HomeScreen();
     }
     // المستخدم غير مسجل الدخول
     return const LoginOrRegisterScreen();
