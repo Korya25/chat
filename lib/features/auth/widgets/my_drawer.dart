@@ -1,5 +1,6 @@
 import 'package:chat/constant/app_tex_style.dart';
 import 'package:chat/features/auth/cubits/auth_cubits.dart';
+import 'package:chat/features/home/settings_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
