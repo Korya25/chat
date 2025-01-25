@@ -1,9 +1,7 @@
 class Routes {
   static const String loading = '/loading';
-  static const String introduce_1 = '/introduce_1';
-  static const String introduce_2 = '/introduce_2';
-  static const String introduce_3 = '/introduce_3';
-  static const String introduce_4 = '/introduce_4';
+  static const String onboardingScreen = '/introduce';
+  static const String homeScreen = '/homeScreen';
   static const String login = '/login';
   static const String register = '/register';
 }

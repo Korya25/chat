@@ -1,5 +1,7 @@
 import 'package:chat_ap_p/core/routing/routes.dart';
-import 'package:chat_ap_p/features/onboearding/loading_screen.dart';
+import 'package:chat_ap_p/features/home/screen/home_screen.dart';
+import 'package:chat_ap_p/features/onboearding/screen/on_boarding_screen.dart';
+import 'package:chat_ap_p/features/onboearding/screen/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -7,34 +9,10 @@ class AppRouter {
     switch (settings.name) {
       case Routes.loading:
         return MaterialPageRoute(builder: (_) => const LoadingScreen());
-      case Routes.introduce_1:
-        return MaterialPageRoute(
-            builder: (_) => const Scaffold(
-                  body: Center(
-                    child: Text('Introduce 1 Page'),
-                  ),
-                ));
-      case Routes.introduce_2:
-        return MaterialPageRoute(
-            builder: (_) => const Scaffold(
-                  body: Center(
-                    child: Text('Introduce 2 Page'),
-                  ),
-                ));
-      case Routes.introduce_3:
-        return MaterialPageRoute(
-            builder: (_) => const Scaffold(
-                  body: Center(
-                    child: Text('Introduce 3 Page'),
-                  ),
-                ));
-      case Routes.introduce_4:
-        return MaterialPageRoute(
-            builder: (_) => const Scaffold(
-                  body: Center(
-                    child: Text('Introduce 4 Page'),
-                  ),
-                ));
+      case Routes.onboardingScreen:
+        return MaterialPageRoute(builder: (_) => const OnboardingScreen());
+      case Routes.homeScreen:
+        return MaterialPageRoute(builder: (_) => const HomeScreen());
       case Routes.login:
         return MaterialPageRoute(
             builder: (_) => const Scaffold(

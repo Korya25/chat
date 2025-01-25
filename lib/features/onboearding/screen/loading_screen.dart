@@ -19,7 +19,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
       // ignore: use_build_context_synchronously
-      Navigator.pushReplacementNamed(context, Routes.introduce_1);
+      Navigator.pushReplacementNamed(context, Routes.onboardingScreen);
     });
   }
 
@@ -31,7 +31,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
           padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 20.h),
           child: Column(
             children: [
-              SizedBox(height: 20.h),
+              SizedBox(height: 30.h),
 
               // Row for E-Chat Icon & Text
               Row(
