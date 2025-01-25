@@ -28,8 +28,6 @@ A simple chat application that supports both light and dark modes, featuring cus
 ### Onboarding Screens (Light Mode vs Dark Mode)
 
 | Light Mode | Dark Mode |
-
-
 |------------|-----------|
 | **Step 1: Group Chatting** | **Step 1: Group Chatting** |
 | ![Onboarding Light Step 1](https://github.com/user-attachments/assets/e8cf3232-7b26-4752-b414-4ccc04051129) | ![Onboarding Dark Step 1](https://github.com/user-attachments/assets/21e5e160-24c2-4f67-bb1c-dc90f49602aa) |
@@ -39,6 +37,7 @@ A simple chat application that supports both light and dark modes, featuring cus
 | ![Onboarding Light Step 3](https://github.com/user-attachments/assets/9781f4ce-914d-4e52-a2e8-776ed07a9100) | ![Onboarding Dark Step 3](https://github.com/user-attachments/assets/5fbc8d6c-c16b-471d-9415-d60037c2864f) |
 | **Step 4: Cross-Platform Compatibility** | **Step 4: Cross-Platform Compatibility** |
 | ![Onboarding Light Step 4](https://github.com/user-attachments/assets/60f782ad-198f-4938-8083-562ef81ae9d5) | ![Onboarding Dark Step 4](https://github.com/user-attachments/assets/86a310cb-ffa6-43d2-8994-f287d6f1737a) |
+
 ---
 
 ## Getting Started
