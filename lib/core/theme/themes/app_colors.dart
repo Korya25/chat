@@ -83,4 +83,8 @@ class ColorsManger {
   static const Color primary50 = Color(0xFFE3F2FD);
   static const Color primary_800 = Color(0xFF1565C0);
   static const Color primary_900 = Color(0xFF0D47A1);
+  static Color blue_9000 = const Color(0xFF0F4888);
+
+  // secondary
+  static const Color deepOceanBlue = Color(0xFF0F4888);
 }

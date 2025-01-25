@@ -2,66 +2,37 @@ import 'package:chat_ap_p/core/theme/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class TextStyles {
-  // Roboto Font
-  static const String fontFamily = 'Roboto';
-
-  // Neutral-900 (Light Mode) <=> Neutral-50 (Dark Mode)
-  static TextStyle neutral900(BuildContext context) {
+  // DeepOceanBlue (Light Mode) <=> White (Dark Mode)
+  static TextStyle font33DeepOceanBlueOrWhiteW900(BuildContext context) {
     return TextStyle(
-      fontFamily: fontFamily,
-      fontSize: 16,
-      fontWeight: FontWeight.normal,
+      fontSize: 33,
+      fontWeight: FontWeight.w900,
       color: Theme.of(context).brightness == Brightness.light
-          ? ColorsManger.neutral_900
-          : ColorsManger.neutral_50,
+          ? ColorsManger.deepOceanBlue
+          : ColorsManger.white,
     );
   }
 
-  // Neutral-100 (Light Mode) <=> Neutral-300 (Dark Mode)
-  static TextStyle neutral100(BuildContext context) {
+  // lightBlue_800 (Light Mode) <=> lightBlue_300 (Dark Mode)
+  static TextStyle font22LightBlue800And300W900(BuildContext context) {
     return TextStyle(
-      fontFamily: fontFamily,
-      fontSize: 16,
-      fontWeight: FontWeight.normal,
+      fontSize: 22,
+      fontWeight: FontWeight.w900,
       color: Theme.of(context).brightness == Brightness.light
-          ? ColorsManger.neutral_100
-          : ColorsManger.neutral_300,
+          ? ColorsManger.lightBlue_800
+          : ColorsManger.lightBlue_300,
     );
   }
 
-  // Neutral-500 (Light Mode) <=> Neutral-100 (Dark Mode)
-  static TextStyle neutral500(BuildContext context) {
+  // lightBlue_500 (Light Mode) <=> lightBlue_300 (Dark Mode)
+  static TextStyle font18lightBlue_500AndlightBlue_300W500(
+      BuildContext context) {
     return TextStyle(
-      fontFamily: fontFamily,
-      fontSize: 16,
-      fontWeight: FontWeight.normal,
-      color: Theme.of(context).brightness == Brightness.light
-          ? ColorsManger.neutral_500
-          : ColorsManger.neutral_100,
-    );
-  }
-
-  // Light-Blue-900 (Light Mode) <=> Neutral-100 (Dark Mode)
-  static TextStyle lightBlue900(BuildContext context) {
-    return TextStyle(
-      fontFamily: fontFamily,
-      fontSize: 16,
-      fontWeight: FontWeight.normal,
-      color: Theme.of(context).brightness == Brightness.light
-          ? ColorsManger.lightBlue_900
-          : ColorsManger.neutral_100,
-    );
-  }
-
-  // Light-Blue-500 (Light Mode) <=> White (Dark Mode)
-  static TextStyle lightBlue500(BuildContext context) {
-    return TextStyle(
-      fontFamily: fontFamily,
-      fontSize: 16,
-      fontWeight: FontWeight.normal,
+      fontSize: 18,
+      fontWeight: FontWeight.w500,
       color: Theme.of(context).brightness == Brightness.light
           ? ColorsManger.lightBlue_500
-          : ColorsManger.white,
+          : ColorsManger.lightBlue_300,
     );
   }
 }

@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:chat_ap_p/core/theme/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -44,7 +46,11 @@ class AppTheme {
       onSecondary: ColorsManger.neutral_100,
       surface: ColorsManger.neutral_700,
       onSurface: ColorsManger.neutral_50,
+      // ignore: duplicate_ignore
+      // ignore: deprecated_member_use
       background: ColorsManger.black,
+      // ignore: duplicate_ignore
+      // ignore: deprecated_member_use
       onBackground: ColorsManger.neutral_50,
       error: Colors.red,
       onError: Colors.white,
@@ -59,6 +65,8 @@ class AppTheme {
       color: ColorsManger.neutral_700,
     ),
     inputDecorationTheme: InputDecorationTheme(
+      // ignore: duplicate_ignore
+      // ignore: deprecated_member_use
       fillColor: ColorsManger.white.withOpacity(0.2),
       filled: true,
     ),

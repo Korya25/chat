@@ -1,4 +1,5 @@
 class Routes {
+  static const String loading = '/loading';
   static const String introduce_1 = '/introduce_1';
   static const String introduce_2 = '/introduce_2';
   static const String introduce_3 = '/introduce_3';

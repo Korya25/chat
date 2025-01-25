@@ -1,12 +1,19 @@
 import 'package:chat_ap_p/core/routing/routes.dart';
-import 'package:chat_ap_p/features/onboearding/introduce_screen.dart';
+import 'package:chat_ap_p/features/onboearding/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
+      case Routes.loading:
+        return MaterialPageRoute(builder: (_) => const LoadingScreen());
       case Routes.introduce_1:
-        return MaterialPageRoute(builder: (_) => const IntroduceScreen());
+        return MaterialPageRoute(
+            builder: (_) => const Scaffold(
+                  body: Center(
+                    child: Text('Introduce 1 Page'),
+                  ),
+                ));
       case Routes.introduce_2:
         return MaterialPageRoute(
             builder: (_) => const Scaffold(

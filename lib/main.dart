@@ -3,6 +3,7 @@ import 'package:chat_ap_p/core/routing/routes.dart';
 import 'package:chat_ap_p/core/theme/cubit/theme_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
@@ -22,17 +23,21 @@ class MyApp extends StatelessWidget {
       create: (context) => ThemeCubit(),
       child: BlocBuilder<ThemeCubit, ThemeMode>(
         builder: (BuildContext context, thememode) {
-          return MaterialApp(
-            onGenerateRoute: AppRouter.generateRoute,
-            initialRoute: Routes.introduce_1,
-            theme: ThemeData(
-              brightness: Brightness.light,
+          return ScreenUtilInit(
+            designSize: const Size(393, 852),
+            minTextAdapt: true,
+            child: MaterialApp(
+              onGenerateRoute: AppRouter.generateRoute,
+              initialRoute: Routes.loading,
+              theme: ThemeData(
+                brightness: Brightness.light,
+              ),
+              darkTheme: ThemeData(
+                brightness: Brightness.dark,
+              ),
+              themeMode: thememode,
+              debugShowCheckedModeBanner: false,
             ),
-            darkTheme: ThemeData(
-              brightness: Brightness.dark,
-            ),
-            themeMode: thememode,
-            debugShowCheckedModeBanner: false,
           );
         },
       ),
