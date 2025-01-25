@@ -16,45 +16,29 @@ A simple chat application that supports both light and dark modes, featuring cus
 
 ## Screenshots
 
-### Light Mode
-- **Splash Screen (Light Mode)**:
-  ![Splash Screen Light](https://github.com/user-attachments/assets/1f9874c9-749f-482e-9508-55633434050d)
+### Light Mode vs Dark Mode
 
-- **Loading Screen (Light Mode)**:
-  ![Loading Screen Light](https://github.com/user-attachments/assets/014312eb-2b28-43a0-a3fb-2d56b9511d09)
+| Light Mode | Dark Mode |
+|------------|-----------|
+| **Splash Screen** | **Splash Screen** |
+| ![Splash Screen Light](https://github.com/user-attachments/assets/1f9874c9-749f-482e-9508-55633434050d) | ![Splash Screen Dark](https://github.com/user-attachments/assets/aa7d9cf2-7c24-418b-b86a-12fc983ebb25) |
+| **Loading Screen** | **Loading Screen** |
+| ![Loading Screen Light](https://github.com/user-attachments/assets/014312eb-2b28-43a0-a3fb-2d56b9511d09) | ![Loading Screen Dark](https://github.com/user-attachments/assets/18852a66-9d3a-48f6-8178-087ab6167893) |
 
-- **Onboarding Screens (Light Mode)**:
-  - **Step 1**: Group Chatting
-![c155af82-4e10-4458-8be9-a249fbf2fed5](https://github.com/user-attachments/assets/e8cf3232-7b26-4752-b414-4ccc04051129)
-  - **Step 2**: Video and Voice Calls
-![ea4934ef-c16c-4e27-b054-8bafe15f3059](https://github.com/user-attachments/assets/2daad6ca-b88c-4813-b8d5-f510c1da01df)
+### Onboarding Screens (Light Mode vs Dark Mode)
 
-  - **Step 3**: Message Encryption
+| Light Mode | Dark Mode |
 
-![10c8cce5-f4eb-4169-b336-295baf0794a6](https://github.com/user-attachments/assets/9781f4ce-914d-4e52-a2e8-776ed07a9100)
 
-  - **Step 4**: Cross-Platform Compatibility
-    
-![25fe60d5-c42a-454d-82db-e2901ab70530](https://github.com/user-attachments/assets/60f782ad-198f-4938-8083-562ef81ae9d5)
-
-### Dark Mode
-- **Splash Screen (Dark Mode)**:
-  ![Splash Screen Dark](https://github.com/user-attachments/assets/aa7d9cf2-7c24-418b-b86a-12fc983ebb25)
-
-- **Loading Screen (Dark Mode)**:
-  ![Loading Screen Dark](https://github.com/user-attachments/assets/18852a66-9d3a-48f6-8178-087ab6167893)
-
-- **Onboarding Screens (Dark Mode)**:
-  - **Step 1**: Group Chatting
-
-![916d09c3-b8be-4678-a5ef-daf8ed55a3c7](https://github.com/user-attachments/assets/21e5e160-24c2-4f67-bb1c-dc90f49602aa)
-  - **Step 2**: Video and Voice Calls
-  ![c795db15-db26-4f1a-9b40-8e486a37f49f](https://github.com/user-attachments/assets/c20b7f8b-363c-4a18-b0d4-2c3600521891)
-  - **Step 3**: Message Encryption
-  ![800849ba-54d5-460d-9985-746511260ce7](https://github.com/user-attachments/assets/5fbc8d6c-c16b-471d-9415-d60037c2864f)
-  - **Step 4**: Cross-Platform Compatibility
-![1711477e-a1a1-4d15-871f-76a5001811dc](https://github.com/user-attachments/assets/86a310cb-ffa6-43d2-8994-f287d6f1737a)
-
+|------------|-----------|
+| **Step 1: Group Chatting** | **Step 1: Group Chatting** |
+| ![Onboarding Light Step 1](https://github.com/user-attachments/assets/e8cf3232-7b26-4752-b414-4ccc04051129) | ![Onboarding Dark Step 1](https://github.com/user-attachments/assets/21e5e160-24c2-4f67-bb1c-dc90f49602aa) |
+| **Step 2: Video and Voice Calls** | **Step 2: Video and Voice Calls** |
+| ![Onboarding Light Step 2](https://github.com/user-attachments/assets/2daad6ca-b88c-4813-b8d5-f510c1da01df) | ![Onboarding Dark Step 2](https://github.com/user-attachments/assets/c20b7f8b-363c-4a18-b0d4-2c3600521891) |
+| **Step 3: Message Encryption** | **Step 3: Message Encryption** |
+| ![Onboarding Light Step 3](https://github.com/user-attachments/assets/9781f4ce-914d-4e52-a2e8-776ed07a9100) | ![Onboarding Dark Step 3](https://github.com/user-attachments/assets/5fbc8d6c-c16b-471d-9415-d60037c2864f) |
+| **Step 4: Cross-Platform Compatibility** | **Step 4: Cross-Platform Compatibility** |
+| ![Onboarding Light Step 4](https://github.com/user-attachments/assets/60f782ad-198f-4938-8083-562ef81ae9d5) | ![Onboarding Dark Step 4](https://github.com/user-attachments/assets/86a310cb-ffa6-43d2-8994-f287d6f1737a) |
 ---
 
 ## Getting Started
